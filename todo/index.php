@@ -15,22 +15,22 @@ $conn = new PDO(
 
 //var_dump($conn);
 
-$sql = 'SELECT * FROM todo';
-$stmt = $conn->prepare($sql);
-$stmt->execute();
-//$todos = $stmt->fetchAll();//scos!!?
-
-$todos = []; //sau array();
-while($row = $stmt->fetch()) {
-    $todos[] = $row;
-}
+//$sql = 'SELECT * FROM todo';
+//$stmt = $conn->prepare($sql);
+//$stmt->execute();
+////$todos = $stmt->fetchAll();//scos!!?
+//
+//$todos = []; //sau array();
+//while($row = $stmt->fetch()) {
+//    $todos[] = $row;
+//}
 
 $sql2 = 'SELECT COUNT (*) AS counts FROM todo';
 $stmt2 = $conn->prepare($sql2);
 $stmt2->execute();
 $row2 = $stmt2->fetch();
 
-$numar = $row2['counts'];
+$numar = $row2['counts'];``
 //var_dump($todos);
 
 if(isset($_GET['add'])) {
