@@ -30,7 +30,7 @@ $stmt2 = $conn->prepare($sql2);
 $stmt2->execute();
 $row2 = $stmt2->fetch();
 
-$numar = $row2['counts'];
+$numar = $row2["counts"];
 echo $numar;
 //var_dump($todos);
 
