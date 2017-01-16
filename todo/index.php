@@ -20,7 +20,7 @@ $conn = new PDO(
 //$stmt->execute();
 ////$todos = $stmt->fetchAll();//scos!!?
 //
-//$todos = []; //sau array();
+$todos = []; //sau array();
 //while($row = $stmt->fetch()) {
 //    $todos[] = $row;
 //}
@@ -30,7 +30,7 @@ $stmt2 = $conn->prepare($sql2);
 $stmt2->execute();
 $row2 = $stmt2->fetch();
 
-$numar = $row2['counts'];``
+$numar = $row2['counts'];
 //var_dump($todos);
 
 if(isset($_GET['add'])) {
