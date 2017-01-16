@@ -54,7 +54,7 @@
                 </li>
                 <?php endforeach; ?>
             </ul>
-            <p>Items in list: <?php echo $numar ?> </p>
+            <p>Items in list: <?php echo $numar; ?> </p>
 
         </div>
     </div>
