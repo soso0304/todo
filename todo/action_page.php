@@ -8,4 +8,6 @@
 
 echo "m-a apelat cineva";
 
-echo $_GET["firstname"];
+
+
+echo $_POST["firstname"];
