@@ -25,7 +25,7 @@ while($row = $stmt->fetch()) {
     $todos[] = $row;
 }
 
-$sql2 = 'SELECT COUNT (*) AS counts FROM todo';
+$sql2 = 'SELECT COUNT(*) AS counts FROM todo';
 $stmt2 = $conn->prepare($sql2);
 $stmt2->execute();
 $row2 = $stmt2->fetch();
