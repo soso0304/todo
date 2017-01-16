@@ -41,17 +41,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="soso.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="soso.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todo/soso.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="136">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="action_page.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="action_page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todo/action_page.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -93,8 +93,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/todo/app/templates/index.php" />
         <option value="$PROJECT_DIR$/todo/index.php" />
-        <option value="$PROJECT_DIR$/todo/soso.html" />
         <option value="$PROJECT_DIR$/todo/action_page.php" />
+        <option value="$PROJECT_DIR$/todo/soso.html" />
       </list>
     </option>
   </component>
@@ -232,12 +232,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484393936736</updated>
       <workItem from="1484393940933" duration="11889000" />
-      <workItem from="1484598639628" duration="4403000" />
+      <workItem from="1484598639628" duration="4461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16292000" />
+    <option name="totallyTimeSpent" value="16350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="926" extended-state="0" />
@@ -352,14 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo/soso.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todo/action_page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -367,6 +359,14 @@
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/soso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
