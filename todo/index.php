@@ -4,7 +4,7 @@
 
 $host = "localhost";
 $user = "root";
-$pass = "q1w2e3r4";
+$pass = "audiA4B8";
 $dbname = "softbinator";
 
 $conn = new PDO(
