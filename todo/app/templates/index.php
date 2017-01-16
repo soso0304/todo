@@ -25,7 +25,7 @@
     </div>
 
     <div class="jumbotron">
-        <form action="?add" method="post" class="form-inline">
+        <form action="action_add.php" method="post" class="form-inline">
             <div class="form-group">
                 <input name="todo" type="text" class="form-control" placeholder="Add something to the list">
             </div>
