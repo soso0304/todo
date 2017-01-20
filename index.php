@@ -1,48 +1,37 @@
 <?php
 
-echo '<pre>';
-/*
+//require sau include
 
-function hello($name) {
-    return 'Hello '.$name;
-}
+$host = "localhost";
+$user = "root";
+$pass = "audiA4B8";
+$dbname = "softbinator";
 
-//echo hello('Posa Bogdan');
-
-
-
-
-for ($i = 0; $i <= 10; $i++){
-    if($i > 5) {
-        echo "ana are mere<br>";
-    } else {
-
-        echo("maria are pere<br>");
-    }
-
-}*/
-
-$fructe = array(
-    'primul' => 'mere',
-    'al doilea' => 'pere',
-    'al treilea' => 'portocale',
+$conn = new PDO(
+    'mysql:host='.$host.'; dbname='.$dbname,
+    $user,
+    $pass
 );
 
-$fructe = array(
-    'mere',
-    'pere',
-    'portocale',
-);
+//var_dump($conn);
 
-foreach ($fructe as $i => $fruct) {
-    echo $i,' ',$fruct,PHP_EOL,PHP_EOL;
+$sql = 'SELECT * FROM todo';
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+
+$todos = []; //sau array();
+while($row = $stmt->fetch()) {
+    $todos[] = $row;
 }
 
-$test = true;
-if ($test == true){
-    echo 'test == true',PHP_EOL;
-}
-if ($test === true) {
-    echo 'test === true';
-}
+$sql2 = 'SELECT COUNT(*) AS counts FROM todo';
+$stmt2 = $conn->prepare($sql2);
+$stmt2->execute();
+$row2 = $stmt2->fetch();
 
+$numar = $row2["counts"];
+echo $numar;
+//var_dump($todos);
+
+
+require 'app/templates/index.php';
